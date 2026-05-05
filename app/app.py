@@ -22,7 +22,6 @@ with col2:
     sleep_hours = st.slider("Sleep Hours", 4, 9)
     goout = st.slider("Social Activity (1-5)", 1, 5)
 
-# Dummy model training (same logic as notebook)
 # Load data
 try:
     df = pd.read_csv("data/student_data.csv")
